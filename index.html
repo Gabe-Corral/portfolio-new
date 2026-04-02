@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gabe Corral</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <nav class="nav" aria-label="Primary navigation">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="top">
+            <section class="origin-hero">
+                <div class="origin-hero-overlay"></div>
+
+                <div class="origin-hero-content">
+                    <div class="origin-avatar">
+                        <img src="images/profile.png" alt="Profile avatar" />
+                    </div>
+
+                    <h1>Gabe Corral</h1>
+                    <p class="origin-subtitle">Sofware Developer</p>
+
+                    <div class="origin-links">
+                        <button
+                            class="copy-btn"
+                            data-copy="GabeCorral@protonmail.com"
+                        >
+                            Copy
+                        </button>
+                        <a href="mailto:youremail@example.com"
+                            >GabeCorral@protonmail.com</a
+                        >
+                        <span>|</span>
+                        <a
+                            href="https://github.com/Gabe-Corral"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="story-panel">
+                <section id="about"></section>
+                <div class="story-date">About</div>
+                <div class="story-content">
+                    <p><strong>Austin, TX</strong></p>
+                    <p>
+                        Software Developer with 4 years of professional
+                        experience, focused on Python, C++, and Linux. I’m
+                        growing more and more interested in performance, system
+                        design, and low-level programming. I enjoy building
+                        systems that are efficient and simple.
+                    </p>
+                </div>
+                <section id="experience"></section>
+                <div class="story-date story-date-multi">Experience</div>
+                <div class="story-content">
+                    <p>
+                        <strong
+                            ><a
+                                href="https://texmetals.com"
+                                target="_blank"
+                                rel="noreferrer"
+                                >Texas Precious Metals</a
+                            ></strong
+                        >
+                        &
+                        <strong
+                            ><a
+                                href="https://texasdepository.com"
+                                target="_blank"
+                                rel="noreferrer"
+                                >Texas Depository</a
+                            ></strong
+                        >
+                        |
+                        <em>Software Developer</em>
+                        | 07/2022 - current
+                    </p>
+
+                    <ul class="clean-list">
+                        <li>
+                            Developed and maintained full-stack applications
+                            using Django, React, and MySQL in a production
+                            environment.
+                        </li>
+                        <li>
+                            Designed and implemented RESTful APIs used across
+                            internal and customer-facing systems.
+                        </li>
+                        <li>
+                            Worked closely with stakeholders and project
+                            managers to define requirements and deliver features
+                            on schedule.
+                        </li>
+                        <li>
+                            Deployed and maintained services on AWS (EC2, RDS,
+                            Load Balancers, Route 53, etc).
+                        </li>
+                        <li>
+                            Implemented CI/CD pipelines (GiHub Actions) to
+                            streamline deployment and reduce release friction.
+                        </li>
+                        <li>
+                            Performed code reviews and contributed to improving
+                            code quality across the team.
+                        </li>
+                        <li>
+                            Created integration systems for trading between
+                            custom ERPs and SalesForce.
+                        </li>
+                        <li>
+                            Customized and extended Odoo modules to support
+                            business-specific workflows, reporting, and
+                            integrations.
+                        </li>
+                        <li>
+                            Designed and implemented workflow automations to
+                            reduce manual processes and improve operational
+                            efficiency.
+                        </li>
+                        <li>
+                            Integrated Odoo with internal systems and
+                            third-party services to enable seamless data flow
+                            across platforms.
+                        </li>
+                    </ul>
+
+                    <p>
+                        <strong
+                            ><a
+                                href="https://codingwithkids.com"
+                                target="_blank"
+                                rel="noreferrer"
+                                >Coding with Kids
+                            </a></strong
+                        >
+                        |
+                        <em>Coding Instructor</em>
+                        | 08/2021 - 07/2022
+                    </p>
+
+                    <ul class="clean-list">
+                        <li>
+                            Taught Python fundamentals and programming concepts
+                            to students.
+                        </li>
+                        <li>
+                            Taught Scratch fundamentals and how to build basic
+                            games with Scratch Studio.
+                        </li>
+                        <li>
+                            Designed interactive lessons and small projects to
+                            reinforce learning.
+                        </li>
+                        <li>
+                            Helped improve curriculum and student engagement.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <section id="projects">
+                <div class="container">
+                    <div class="section-heading">
+                        <div>
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
+
+                    <div class="projects-grid" id="project-list">
+                        <article class="card">
+                            <div class="card-image">
+                                <img
+                                    src="images/window_manager.png"
+                                    alt="Window Manager preview"
+                                />
+                            </div>
+                            <span class="project-tag cyan"
+                                >Python / Window Managers</span
+                            >
+                            <h3>Tiling Window Manager</h3>
+                            <p>
+                                A Python X11 window manager built with the
+                                intention on eventually replacing my current
+                                desktop environment/window manager and better
+                                understand how X11 works on Linux.
+                            </p>
+                            <ul class="stack">
+                                <li>Python</li>
+                                <li>X11</li>
+                                <li>Linux</li>
+                            </ul>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/Gabe-Corral/PYWM"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >GitHub</a
+                                >
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-image">
+                                <img
+                                    src="images/order_book_engine.png"
+                                    alt="Order Book Engine preview"
+                                />
+                            </div>
+
+                            <div class="card-body">
+                                <span class="project-tag purple"
+                                    >C++ / Trading Systems</span
+                                >
+
+                                <h3>Order Book Engine</h3>
+
+                                <p>
+                                    A C++ order book focused on performance and
+                                    reliability. Built to strengthen C++ skills
+                                    and learn GoogleTest.
+                                </p>
+
+                                <ul class="stack">
+                                    <li>C++20</li>
+                                    <li>CMake</li>
+                                    <li>GoogleTest</li>
+                                </ul>
+
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/Gabe-Corral/OrderBookEngine"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        >GitHub</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-image">
+                                <img
+                                    src="orderbook.png"
+                                    alt="Order Book Engine preview"
+                                />
+                            </div>
+                            <span class="project-tag green"
+                                >C / C++ / Systems</span
+                            >
+                            <h3>Kernel & OS Experiments</h3>
+                            <p>
+                                Ongoing low-level experiments with toolchains,
+                                bootloading, and operating-system fundamentals.
+                                A project that reflects curiosity about the full
+                                stack beneath application software.
+                            </p>
+                            <ul class="stack">
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>GRUB</li>
+                                <li>Toolchains</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#">GitHub</a>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-image">
+                                <img
+                                    src="images/clone_labs.png"
+                                    alt="Clone Labs preview"
+                                />
+                            </div>
+                            <span class="project-tag orange"
+                                >Multi-Player Browser Games</span
+                            >
+                            <h3>Clone Labs</h3>
+                            <p>
+                                Clone Labs is a collection of multiplayer mini
+                                games. The name comes from the fact that none of
+                                the games are original and are mostly rip offs
+                                of more well known games. The design is similar
+                                to Kahoot/Jackbox and was heavily inspired by
+                                Kahoot/Jackbox.
+                            </p>
+                            <ul class="stack">
+                                <li>React</li>
+                                <li>Django</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/Gabe-Corral/Clone-Labs"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >GitHub</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="container">
+                    <div class="section-heading">
+                        <div>
+                            <h2>Skills</h2>
+                        </div>
+                    </div>
+
+                    <div class="skills-grid">
+                        <div class="skill-group">
+                            <h3>Languages</h3>
+                            <ul>
+                                <li>Python</li>
+                                <li>C++</li>
+                                <li>SQL</li>
+                                <li>Bash</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>Systems & Tools</h3>
+                            <ul>
+                                <li>Linux</li>
+                                <li>Git</li>
+                                <li>SSH</li>
+                                <li>ERP (Enterprise Resource Planning)</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>Focus Areas</h3>
+                            <ul>
+                                <li>Systems Programming</li>
+                                <li>Backend Development</li>
+                                <li>Performance</li>
+                                <li>Minimal Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>Built by Gabe Corral</p>
+            </div>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
